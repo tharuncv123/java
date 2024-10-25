@@ -1,0 +1,53 @@
+class PoliceStationRunner {
+	public static void main(String[] args){
+		PoliceStation policeStation=new PoliceStation();
+		System.out.println("Police station name : "+policeStation.name);
+		System.out.println("Police station location : "+policeStation.location);
+		System.out.println("Police station subInspector Name : "+policeStation.subInspectorName);
+		System.out.println("Police station constable Name : "+policeStation.constableName);
+		System.out.println("Police station inspector Name : "+policeStation.inspectorName);
+		System.out.println("Police station headConstable Name : "+policeStation.headConstableName);
+		PoliceStation policeStation1=new PoliceStation("Halasuru");
+		System.out.println("Police station name : "+policeStation1.name);
+		System.out.println("Police station location : "+policeStation1.location);
+		System.out.println("Police station subInspector Name : "+policeStation1.subInspectorName);
+		System.out.println("Police station constable Name : "+policeStation1.constableName);
+		System.out.println("Police station inspector Name : "+policeStation1.inspectorName);
+		System.out.println("Police station headConstable Name : "+policeStation1.headConstableName);
+		PoliceStation policeStation2=new PoliceStation("Halasuru","Cambridge laout");
+		System.out.println("Police station name : "+policeStation2.name);
+		System.out.println("Police station location : "+policeStation2.location);
+		System.out.println("Police station subInspector Name : "+policeStation2.subInspectorName);
+		System.out.println("Police station constable Name : "+policeStation2.constableName);
+		System.out.println("Police station inspector Name : "+policeStation2.inspectorName);
+		System.out.println("Police station headConstable Name : "+policeStation2.headConstableName);
+		PoliceStation policeStation3=new PoliceStation("Halasuru","Cambridge laout","Abhishek");
+		System.out.println("Police station name : "+policeStation3.name);
+		System.out.println("Police station location : "+policeStation3.location);
+		System.out.println("Police station subInspector Name : "+policeStation3.subInspectorName);
+		System.out.println("Police station constable Name : "+policeStation3.constableName);
+		System.out.println("Police station inspector Name : "+policeStation3.inspectorName);
+		System.out.println("Police station headConstable Name : "+policeStation3.headConstableName);
+		PoliceStation policeStation4=new PoliceStation("Halasuru","Cambridge laout","Abhishek","Deekshith");
+		System.out.println("Police station name : "+policeStation4.name);
+		System.out.println("Police station location : "+policeStation4.location);
+		System.out.println("Police station subInspector Name : "+policeStation4.subInspectorName);
+		System.out.println("Police station constable Name : "+policeStation4.constableName);
+		System.out.println("Police station inspector Name : "+policeStation4.inspectorName);
+		System.out.println("Police station headConstable Name : "+policeStation4.headConstableName);
+		PoliceStation policeStation5=new PoliceStation("Halasuru","Cambridge laout","Abhishek","Deekshith","Soma");
+		System.out.println("Police station name : "+policeStation5.name);
+		System.out.println("Police station location : "+policeStation5.location);
+		System.out.println("Police station subInspector Name : "+policeStation5.subInspectorName);
+		System.out.println("Police station constable Name : "+policeStation5.constableName);
+		System.out.println("Police station inspector Name : "+policeStation5.inspectorName);
+		System.out.println("Police station headConstable Name : "+policeStation5.headConstableName);
+		PoliceStation policeStation6=new PoliceStation("Halasuru","Cambridge laout","Abhishek","Deekshith","Soma","Omkar");
+		System.out.println("Police station name : "+policeStation6.name);
+		System.out.println("Police station location : "+policeStation6.location);
+		System.out.println("Police station subInspector Name : "+policeStation6.subInspectorName);
+		System.out.println("Police station constable Name : "+policeStation6.constableName);
+		System.out.println("Police station inspector Name : "+policeStation6.inspectorName);
+		System.out.println("Police station headConstable Name : "+policeStation6.headConstableName);
+	}
+}
